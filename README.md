@@ -5,7 +5,7 @@ This repository documents my learning path, practice projects, and progress — 
 
 The goal is **consistency over hype**, **skills over shortcuts**, and **real understanding over tutorials-only learning**.
 
----
+
 
 ## 🎯 Objective
 
@@ -13,7 +13,7 @@ Build a **strong full stack foundation** by mastering core web technologies and 
 
 **This repository will evolve as I grow.**
 
----
+
 
 ## 🛣️ Learning Roadmap (Short-Term Goals)
 
@@ -41,7 +41,7 @@ Build a **strong full stack foundation** by mastering core web technologies and 
   - Performance optimization
   - Real-world project structure
 
----
+
 
 ## 🧠 Learning Philosophy
 
