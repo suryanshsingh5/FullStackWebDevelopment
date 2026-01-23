@@ -11,7 +11,7 @@ The goal is **consistency over hype**, **skills over shortcuts**, and **real und
 
 Build a **strong full stack foundation** by mastering core web technologies and problem-solving skills, then applying them through hands-on projects.
 
-**This repository will evolve as I grow.**
+**NOTE: THIS REPOSITORY WILL EVOLVE AS I GROW**
 
 
 
