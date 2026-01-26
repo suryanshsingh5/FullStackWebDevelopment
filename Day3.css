@@ -1,0 +1,43 @@
+h3{
+    color:aqua
+}
+div{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.parent1{
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+}
+.child1{
+    width: 50%;
+    height: 100%;
+    background-color: brown;
+}
+.parent2{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+.child2{
+    width: 50%;
+    height: 75%;
+    background-color: black;
+}
+.font{
+    background: none;
+}
+.font>section{
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    cursor: pointer;
+    font-family: "Playwrite GB J Guides";
+}
