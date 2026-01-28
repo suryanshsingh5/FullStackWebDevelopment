@@ -1,0 +1,81 @@
+.boxModel{
+    border-left:12px solid green;
+    border-right: 21px solid red;
+    border-top: 12px solid blue;
+    border-bottom:12px solid pink;
+
+    
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.background{
+    height: 50vh;
+    background-color: grey;
+    background-image: url("https://www.bing.com/th/id/OIP.uXSLENrTjHzU60SaAXOycwHaHZ?w=186&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=3.1&rm=2");
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.gradient1{
+    /* now we will use linear gradients */
+    height: 50vh;
+    background: linear-gradient(to left, rgba(0, 0, 255, 0.548), rgba(255, 0, 0, 0.726));
+}
+.gradient2{
+    /* now we will use radial gradients */
+    height: 50vh;
+    background-image: radial-gradient( rgba(255, 0, 0, 0.603), rgba(0, 0, 255, 0.639));
+}
+.filters{
+    height: 40vh;
+    background-image: url("https://www.bing.com/th/id/OIP.uXSLENrTjHzU60SaAXOycwHaHZ?w=186&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=3.1&rm=2");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* now i will use filter's  */
+    filter: blur(5px);
+    filter: brightness(120%);
+    filter: contrast(200%);
+    filter: grayscale(200%);
+    filter: opacity(0.1);
+    filter: saturate(50%);
+    
+}
+/* now i will demonstrate the selectors in css */
+.parent{
+    height: 40vh;
+    background-color: green;
+}
+#child{
+    height: 40vh;
+    background-color: red;
+}
+section{
+    height: 40vh;
+    background-color: blue;
+}
+*{
+    background-color: yellow;
+}
+aside, article, main{
+    height: 40vh;
+    border: 2px solid black;
+    padding: 20px;
+}
+div p{
+    color: green;
+}
+
+div+p{
+    text-align: center;
+}
